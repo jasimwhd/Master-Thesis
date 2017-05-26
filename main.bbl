@@ -1,0 +1,28 @@
+\begin{thebibliography}{1}
+
+\bibitem{chen2014big}
+Min Chen, Shiwen Mao, and Yunhao Liu.
+\newblock Big data: A survey.
+\newblock {\em Mobile Networks and Applications}, 19(2):171--209, 2014.
+
+\bibitem{5}
+Douglas Hanahan and Robert~A. Weinberg.
+\newblock Hallmarks of cancer: The next generation.
+\newblock {\em Cell}, 144(5):646--674, mar 2011.
+
+\bibitem{lee2016exploring}
+Ju-Seog Lee.
+\newblock Exploring cancer genomic data from the cancer genome atlas project.
+\newblock {\em BMB reports}, 49(11):607, 2016.
+
+\bibitem{lengauer1998genetic}
+Christoph Lengauer, Kenneth~W Kinzler, and Bert Vogelstein.
+\newblock Genetic instabilities in human cancers.
+\newblock {\em Nature}, 396(6712):643--649, 1998.
+
+\bibitem{stratton2009cancer}
+Michael~R Stratton, Peter~J Campbell, and P~Andrew Futreal.
+\newblock The cancer genome.
+\newblock {\em Nature}, 458(7239):719--724, 2009.
+
+\end{thebibliography}

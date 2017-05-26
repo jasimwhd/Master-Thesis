@@ -1,0 +1,35 @@
+%!TEX root = ./main.tex
+%
+% This file is part of the i10 thesis template developed and used by the
+% Media Computing Group at RWTH Aachen University.
+% The current version of this template can be obtained at
+% <http://www.media.informatik.rwth-aachen.de/karrer.html>.
+
+\chapter{Introduction}
+Cancer is one of the leading causes of death around the globe. It is considered to be the most complex disease that human species has to deal with. It is characterized by undesirable growth in cells which are caused by changes in genomes and exposure to environment\cite{5}. Each cancer type has unique architecture of genetic variation - somatic mutations, copy number alterations, gene expression profiles and different epigenetic aberration. Therefore, there is a strong need for better diagnosis, personalized medicines for patients have arose, which correlates with better understanding the changes at genetic level in tumors. All thanks to technological advancements in high-throughput techniques for genome-wide interrogations such as Microarray and Next-Generation Sequecing(NGS) platforms have provided means to target personalized healthcare solutions for patients\cite{stratton2009cancer} \cite{lengauer1998genetic}. \newline
+
+\section{Data Integration Challenges in the era of Cancer Genomics}
+\label{introduction.challenges}
+With the deluge of multiple projects from different organizations catering to Cancer Genomic has grown over years, one such is The Cancer Genome Atlas(TCGA). It comprises of genomic, epigenomic, and proteomic data from over 10 thousand samples from 33 kinds of cancer, with a target to support bioinformaticians and medical researchers in understanding molecular foundation of cancer development. Since the data available in TCGA qualifies the 3Vs i.e. Volume, Velocity and Veracity principle of Big Data, integration of comprehensively characterizing the whole genomes at low cost is a big challenge\cite{chen2014big}\cite{lee2016exploring}. Performing mining on the big data extracted through TCGA is overwhelmingly difficult by the traditional tools like R and Python.  Furthermore, the data collected in TCGA site exists in native raw form, therefore there is a need to perform further preprocessing which needs background in both biological domains as well as technical expertise for programming. TCGA provides ample of intuitive web-based tools, such as TCGA-Assembler, cBioPortal, Firebrowse etc which supports clinicians and researcher in making knowledgeable insights of all the data types in a significant manner. Visual analytical tools has features which offers integrative data mining capabilities in the following modes: \\
+\begin{itemize}
+	\item \textbf{Discovery mode:} Finds global correlations across different data types.
+	\item \textbf{Confirmation mode:} Analysis on results from few genes. 
+
+\end{itemize}
+
+Visualization tools such as cBioPortal, Firebrowse often offer one of the two modes of study, such as: \\
+a) cBioportal features study of multiple studies at the same time \\
+b) FireBrowse offers gene level study \\
+Both of them lack the ability to incorporate into a single analysis. Whereas, TCGA-Assembler offers no visual interface and requires scripting knowledge to deal with the datasets for analytical purposes. \\
+Therefore, through our work, we develop a scalable curated-data analytics pipeline infrastructure built with visualization dashboard on top for analytical purposes, commonly known as Data Lake, with an ultimate aim for comprehensive analyzing and visualizing the most common data types provided by TCGA.
+\section{Thesis Goals \& Outcome}
+\label{goals}
+Specific aims of my thesis are as follows:
+\begin{itemize}
+	\item build a scalable centralized repository, ingesting TCGA analytical data sources such as cBioPortal, Firebrowse 
+	\item  develop a data management solution for this infrastructure which:
+	\\ i) captures the metadata at all the levels i.e. business, technical and operational metadata
+	\\ ii) offering capability to data profiling, reporting and governance
+	\item  extract value from this platform by facilitating data visualization with interactive dashboard
+	
+\end{itemize}
