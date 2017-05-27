@@ -1,12 +1,12 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.9.19)  26 MAY 2017 23:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.10.20)  27 MAY 2017 21:17
 entering extended mode
 **./main.tex
 (main.tex
 LaTeX2e <2016/03/31> patch level 3
 Babel <3.9r> and hyphenation patterns for 75 language(s) loaded.
-("C:\Users\310220923\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\book.cls"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\book.cls"
 Document Class: book 2014/09/29 v1.4h Standard LaTeX document class
-("C:\Users\310220923\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\bk11.clo"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\bk11.clo"
 File: bk11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -22,39 +22,31 @@ File: bk11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-("C:\Users\310220923\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graph
-icx.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Users\310220923\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\keyva
-l.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
 )
-("C:\Users\310220923\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graph
-ics.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
 Package: graphics 2016/07/10 v1.0t Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Users\310220923\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\trig.
-sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-("C:\Users\310220923\AppData\Local\Programs\MiKTeX 2.9\tex\latex\00miktex\graph
-ics.cfg"
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
 
-("C:\Users\310220923\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-def\p
-dftex.def"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
 File: pdftex.def 2016/07/10 v0.06j Graphics/color for pdfTeX
 
-("C:\Users\310220923\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\inf
-warerr.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 )
-("C:\Users\310220923\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ltx
-cmds.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count88
@@ -62,12 +54,11 @@ Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen103
 \Gin@req@width=\dimen104
 )
-("C:\Users\310220923\AppData\Local\Programs\MiKTeX 2.9\tex\latex\url\url.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\url\url.sty"
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-("C:\Users\310220923\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\listi
-ngs.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.sty"
 \lst@mode=\count89
 \lst@gtempboxa=\box26
 \lst@token=\toks15
@@ -81,26 +72,19 @@ ngs.sty"
 \lst@lineno=\count94
 \lst@maxwidth=\dimen108
 
-("C:\Users\310220923\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\lstmi
-sc.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 \c@lstnumber=\count95
 \lst@skipnumbers=\count96
 \lst@framebox=\box27
 )
-("C:\Users\310220923\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\listi
-ngs.cfg"
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.cfg"
 File: listings.cfg 2015/06/04 1.6 listings configuration
 ))
 Package: listings 2015/06/04 1.6 (Carsten Heinz)
- (main.aux (indexAddOn.aux) (introduction.aux) (relatedwork.aux
-
-LaTeX Warning: Label `introduction.challenges' multiply defined.
-
-
-LaTeX Warning: Label `goals' multiply defined.
-
-) (ownwork.aux) (evaluation.aux) (timeplan.aux))
+ (main.aux
+(indexAddOn.aux) (introduction.aux) (relatedwork.aux) (ownwork.aux)
+(evaluation.aux) (timeplan.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 75.
@@ -116,8 +100,7 @@ LaTeX Font Info:    ... okay on input line 75.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 75.
 LaTeX Font Info:    ... okay on input line 75.
 
-("C:\Users\310220923\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pd
-f.mkii"
+("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count97
 \scratchdimen=\dimen109
@@ -130,19 +113,15 @@ f.mkii"
 \MPnumerator=\count101
 \makeMPintoPDFobject=\count102
 \everyMPtoPDFconversion=\toks17
-)
-("C:\Users\310220923\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\pdf
-texcmds.sty"
+) ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
 Package: pdftexcmds 2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-("C:\Users\310220923\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifl
-uatex.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
-("C:\Users\310220923\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifp
-df.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
 Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
 )
 Package pdftexcmds Info: LuaTeX not detected.
@@ -150,28 +129,22 @@ Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
-("C:\Users\310220923\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epsto
-pdf-base.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-("C:\Users\310220923\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\grfex
-t.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 
-("C:\Users\310220923\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvd
-efinekeys.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty"
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
 ))
-("C:\Users\310220923\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\kvopt
-ions.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 
-("C:\Users\310220923\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvs
-etkeys.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 
-("C:\Users\310220923\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ete
-xcmds.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
 Package etexcmds Info: Could not find \expanded.
 (etexcmds)             That can mean that you are not using pdfTeX 1.50 or
@@ -188,7 +161,8 @@ G,.JBIG2,.JB2,.eps]
 \c@lstlisting=\count103
 \openout2 = `indexAddOn.aux'.
 
- (indexAddOn.tex)
+
+(indexAddOn.tex)
 Missing character: There is no ä in font cmr17!
  <rwthlogo.pdf, id=1, 199.1693pt x 56.9055pt>
 File: rwthlogo.pdf Graphic file (type pdf)
@@ -214,8 +188,8 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 
 
-{C:/Users/310220923/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./rwthl
-ogo.pdf> <./i5-logo.png>] (main.toc
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <./rwthlogo.pdf> <./i5-log
+o.png>] (main.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <10.95> on input line 2.
 )
@@ -246,8 +220,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--14
  []
 
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 15.
-("C:\Users\310220923\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omscmr.fd
-"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
@@ -339,30 +312,24 @@ Overfull \vbox (7.48248pt too high) has occurred while \output is active []
 [12
 
 ] (main.aux (indexAddOn.aux) (introduction.aux) (relatedwork.aux)
-(ownwork.aux) (evaluation.aux) (timeplan.aux))
-
-LaTeX Warning: There were multiply-defined labels.
-
- ) 
+(ownwork.aux) (evaluation.aux) (timeplan.aux)) ) 
 Here is how much of TeX's memory you used:
  2891 strings out of 493334
- 42781 string characters out of 3128490
- 105946 words of memory out of 3000000
+ 41356 string characters out of 3139242
+ 105907 words of memory out of 3000000
  6357 multiletter control sequences out of 15000+200000
  11029 words of font info for 38 fonts, out of 3000000 for 9000
  1145 hyphenation exceptions out of 8191
  40i,7n,32p,1392b,373s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/310220923/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsf
-onts/cm/cmbx10.pfb><C:/Users/310220923/AppData/Local/Programs/MiKTeX 2.9/fonts/
-type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/310220923/AppData/Local/Programs/
-MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/310220923/AppData
-/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/3
-10220923/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17
-.pfb><C:/Users/310220923/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/a
-msfonts/cm/cmsl10.pfb><C:/Users/310220923/AppData/Local/Programs/MiKTeX 2.9/fon
-ts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/310220923/AppData/Local/Progra
-ms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on main.pdf (15 pages, 153500 bytes).
+<C:/Program Files/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
+/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17
+.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl10.pfb><C:
+/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program
+ Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on main.pdf (15 pages, 153308 bytes).
 PDF statistics:
  96 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
