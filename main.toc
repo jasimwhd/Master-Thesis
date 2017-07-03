@@ -1,28 +1,24 @@
 \contentsline {chapter}{\numberline {1}Introduction}{1}
-\contentsline {section}{\numberline {1.1}Data Integration Challenges in the era of Cancer Genomics}{1}
-\contentsline {section}{\numberline {1.2}Thesis Goals \& Outcome}{2}
-\contentsline {chapter}{\numberline {2}Background \& Related work}{3}
-\contentsline {section}{\numberline {2.1}What is Cancer Genome?}{3}
-\contentsline {section}{\numberline {2.2}Current state-of-art}{3}
-\contentsline {subsection}{\numberline {2.2.1}The Cancer Genome Atlas}{3}
-\contentsline {subsubsection}{cBioPortal}{3}
-\contentsline {subsubsection}{Firebrowse}{3}
-\contentsline {section}{\numberline {2.3}Big Data Fundamentals}{3}
-\contentsline {subsection}{\numberline {2.3.1}Technologies for Big Data}{3}
-\contentsline {subsection}{\numberline {2.3.2}Shortcomings in traditional Data Warehousing}{3}
-\contentsline {subsection}{\numberline {2.3.3}Need for Data Lakes in Big Data}{3}
-\contentsline {subsection}{\numberline {2.3.4}Big Data Visualization}{3}
-\contentsline {chapter}{\numberline {3}Solution}{5}
-\contentsline {section}{\numberline {3.1}Development of Big Data Lake Platform using Kylo}{5}
-\contentsline {subsection}{\numberline {3.1.1}Data Ingestion Pipeline and Design with Apache Nifi}{5}
-\contentsline {subsection}{\numberline {3.1.2}Data Standardization and Validation with Apache Spark}{5}
-\contentsline {subsection}{\numberline {3.1.3}Metadata Tracking}{5}
-\contentsline {section}{\numberline {3.2}Development of interactive dashboard using Apache Zeppelin}{5}
-\contentsline {chapter}{\numberline {4}Evaluation}{7}
-\contentsline {section}{\numberline {4.1}Distinguishing Breast Cancer Tumor Subclasses of Gene Expression Patterns with Clinical Implications}{7}
-\contentsline {subsection}{\numberline {4.1.1}Background}{7}
-\contentsline {subsection}{\numberline {4.1.2}Dataset in Detail}{7}
-\contentsline {subsection}{\numberline {4.1.3}Identification of Tumor Subtypes by Hierarchical Clustering}{7}
-\contentsline {subsection}{\numberline {4.1.4}Correlation to Clinical Results}{7}
-\contentsline {section}{\numberline {4.2}Results \& Discussion}{7}
-\contentsline {chapter}{\numberline {5}Time Plan}{9}
+\contentsline {section}{\numberline {1.1}Thesis Goals \& Outcome}{3}
+\contentsline {chapter}{\numberline {2}Background \& Related work}{5}
+\contentsline {section}{\numberline {2.1}What is Cancer Genome?}{5}
+\contentsline {section}{\numberline {2.2}State-of-art cancer genome repositories}{5}
+\contentsline {subsection}{\numberline {2.2.1}The Cancer Genome Atlas}{5}
+\contentsline {section}{\numberline {2.3}Data Lake}{5}
+\contentsline {subsection}{\numberline {2.3.1}Kylo: Data Lake solution }{5}
+\contentsline {section}{\numberline {2.4}Knowledge Organization Systems}{5}
+\contentsline {subsection}{\numberline {2.4.1}Simple Knowlege Organization Systems (SKOS)}{5}
+\contentsline {subsection}{\numberline {2.4.2}Bioportal}{5}
+\contentsline {chapter}{\numberline {3}Solution}{7}
+\contentsline {section}{\numberline {3.1}Development of semantic layer on top of Kylo, a data lake solution}{7}
+\contentsline {subsection}{\numberline {3.1.1}Capturing mapping of ingested metadata to ontologies}{7}
+\contentsline {subsection}{\numberline {3.1.2}Performing annotation, harmonization and canonicalization}{7}
+\contentsline {section}{\numberline {3.2}Development of fully customizable dashboard with provenance and governance at entity level}{7}
+\contentsline {chapter}{\numberline {4}Evaluation}{9}
+\contentsline {section}{\numberline {4.1}Distinguishing Breast Cancer Tumor Subclasses of Gene Expression Patterns with Clinical Implications}{9}
+\contentsline {subsection}{\numberline {4.1.1}Background}{9}
+\contentsline {subsection}{\numberline {4.1.2}Dataset in Detail}{9}
+\contentsline {subsection}{\numberline {4.1.3}Identification of Tumor Subtypes by Hierarchical Clustering}{9}
+\contentsline {subsection}{\numberline {4.1.4}Correlation to Clinical Results}{9}
+\contentsline {section}{\numberline {4.2}Results \& Discussion}{9}
+\contentsline {chapter}{\numberline {5}Time Plan}{11}

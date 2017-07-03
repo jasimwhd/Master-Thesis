@@ -6,30 +6,41 @@
 % <http://www.media.informatik.rwth-aachen.de/karrer.html>.
 
 \chapter{Introduction}
-Cancer is one of the leading causes of death around the globe. It is considered to be the most complex disease that human species has to deal with. It is characterized by undesirable growth in cells which are caused by changes in genomes and exposure to environment\cite{5}. Each cancer type has unique architecture of genetic variation - somatic mutations, copy number alterations, gene expression profiles and different epigenetic aberration. Therefore, there is a strong need for better diagnosis, personalized medicines for patients have arose, which correlates with better understanding the changes at genetic level in tumors. All thanks to technological advancements in high-throughput techniques for genome-wide interrogations such as Microarray and Next-Generation Sequecing(NGS) platforms have provided means to target personalized healthcare solutions for patients\cite{stratton2009cancer} \cite{lengauer1998genetic}. \newline
-
-\section{Data Integration Challenges in the era of Cancer Genomics}
-\label{introduction.challenges}
-With the deluge of multiple projects from different organizations catering to Cancer Genomic has grown over years, one such is The Cancer Genome Atlas(TCGA). It comprises of genomic, epigenomic, and proteomic data from over 10 thousand samples from 33 kinds of cancer, with a target to support bioinformaticians and medical researchers in understanding molecular foundation of cancer development. Since the data available in TCGA qualifies the 3Vs i.e. Volume, Velocity and Veracity principle of Big Data, integration of comprehensively characterizing the whole genomes at low cost is a big challenge\cite{chen2014big}\cite{lee2016exploring}. Performing mining on the big data extracted through TCGA is overwhelmingly difficult by the traditional tools like R and Python.  Furthermore, the data collected in TCGA site exists in native raw form, therefore there is a need to perform further preprocessing which needs background in both biological domains as well as technical expertise for programming. TCGA provides ample of intuitive web-based tools, such as TCGA-Assembler, cBioPortal, Firebrowse etc which supports clinicians and researcher in making knowledgeable insights of all the data types in a significant manner. Visual analytical tools has features which offers integrative data mining capabilities in the following modes: \\
+Cancer is one of the leading causes of death around the globe. It is considered to be the most complex disease that human species has to deal with. It is characterized by undesirable growth in cells which are caused by changes in genomes and exposure to environment\cite{5}. Each cancer type has unique architecture of genetic variation - somatic mutations, copy number alterations, gene expression profiles and different epigenetic aberration. Therefore, a strong need for better diagnosis, personalized medicines for patients have arose, which correlates with better understanding of changes at genetic level in tumors. All thanks to technological advancements in high-throughput techniques for genome-wide interrogations such as Microarray and Next-Generation Sequecing(NGS) platforms have provided wealth of multi-disciplinary, multi-institutional pilot projects in cancer studies\cite{stratton2009cancer} \cite{lengauer1998genetic}.\\~\\
+Various unique projects catering to cancer genome study such as 1000 Genome Project\cite{10002010map}\cite{10002012integrated}, Encyclopedia of DNA Elements Project (ENCODE)\cite{ecker2012genomics}, Immunological Genome Project (ImmGen)\cite{shay2013immunological}, The Cancer Genome Atlas (TCGA)\cite{lee2016exploring} which aims at investigating biological systems at several levels and creating humongous datasets with different data types. These projects motivates the bioinformaticians to develop novel data integration methodologies in order to explore hidden insights. With respect to current state-of-the-art for data integration platforms, data lake promises to addresses the onslaught of Big Data generated across the projects. However, one of the biggest challenges in data lake is to prevent turning into a data swamp or silos. Moreover, especially for cancer genomic data, where the users must have a first hand knowledge in biomedical area since its metadata alone cannot provide the full meaning of respective data. There are dearth of novel methodologies that can point out,for example - genes with name "TP53" and "BCC7" or "Breast Cancer" and "Breast Tumor" means the same. Additionally, in context of conceptual hierarchy, the patient's clinical data set has a broader term as a Person or narrower terms such as Outgoing, Incoming or Doner.  Thus, the use of knowledge organization system from both biomedical domain as well as generic is needed in order to understand the data much more unambiguously.  This would assist the users to find, explore, understand, and trust the data better. Such domain knowledge and thesauri are captured as specification of conceptualization(or commonly known as ontologies) in BioPortal\cite{noy2009bioportal}, Simple Knowledge Organization Systems(SKOS)\cite{miles2005skos}. \\~\\
+The current data lake efforts that are on data quality have the following features - profiling, cleaning and data enrichment. Keeping in consideration of our work in relation to semantic recognition of descriptive data schema, we focus on profiling aspect. But, existing profiling capabilities revolves around statistical data profiling and do not offer semantic aspect. This motivates us to an idea of enabling semantic profiling in data lakes. \\~\\
+Semantic Profiling is a methodology that exploits semantic-based tools and ontologies in order to derive lucid understanding of the information being stored in current systems. This approach is much more rigorous than former traditional profiling techniques for the following reasons: \\
+i) Unlike traditional profiling which captures as much anomalies as you can until you stop, whereas, in semantic profiling once you select the domain of study, you stick by the rules and guidelines. \\
+ii) If a user perform semantic profiling on one system and would like to combine the results of first system  with those from other system, it can easily be facilitated through its feature of reusability. \\
+iii) Semantic profiling allows setting up of testing hypothesis to monitor the data lake in production scenario which can detect semantic drift.\\~\\
+Therefore, through this thesis work, we extend current profiling efforts in the data lake solutions in a much more rigorous way i.e. through semantical enrichment using ontologies[\ref{fig:Figure1}]. This would open the door in answering questions about data sources like: 
 \begin{itemize}
-	\item \textbf{Discovery mode:} Finds global correlations across different data types.
-	\item \textbf{Confirmation mode:} Analysis on results from few genes. 
-
+	\item Does the data adhere to particular standards such as gene and disease ontologies?
+	\item  Is there a way to capture controlled vocabularies, taxonomies and thesauri for clinical dataset of patients?
 \end{itemize}
+\begin{figure}[htbp]
+	% center the image.
+	\centering
+	
+	% include a png file. Adapt size to 0.5 * textwidth and retain aspect ratio (!)
+	%	\resizebox{\textwidth}{!}{Figure1.png}}
+	% NOTE: if possible do not include bitmap graphics in your paper, if available use
+	% a vector graphics format
+	\includegraphics[scale=0.6]{./images/datalake.JPG}
+	\caption{Need to extend the current semnantic tendencies of data lake}
+	\label{fig:Figure1}
+\end{figure}
 
-Visualization tools such as cBioPortal, Firebrowse often offer one of the two modes of study, such as: \\
-a) cBioportal features study of multiple studies at the same time \\
-b) FireBrowse offers gene level study \\
-Both of them lack the ability to incorporate into a single analysis. Whereas, TCGA-Assembler offers no visual interface and requires scripting knowledge to deal with the datasets for analytical purposes. \\
-Therefore, through our work, we develop a scalable curated-data analytics pipeline infrastructure built with visualization dashboard on top for analytical purposes, commonly known as Data Lake, with an ultimate aim for comprehensive analyzing and visualizing the most common data types provided by TCGA.
 \section{Thesis Goals \& Outcome}
 \label{goals}
 Specific aims of my thesis are as follows:
 \begin{itemize}
-	\item build a scalable centralized repository, ingesting TCGA analytical data sources such as cBioPortal, Firebrowse 
-	\item  develop a data management solution for this infrastructure which:
-	\\ i) captures the metadata at all the levels i.e. business, technical and operational metadata
-	\\ ii) offering capability to data profiling, reporting and governance
-	\item  extract value from this platform by facilitating data visualization with interactive dashboard
-	
+	\item Extend current profiling efforts in our state-of-art data lake, which only offers statistical analysis, to semantic indicators that provides the following features:
+	\subitem{a)} capture reports of all the bugs - different existing anomalies in the data source
+	\subitem{b)} set of update actions applied to the data source - translation to the same concept or format
+	\subitem{c)} semantic data structure with meta-information - in form  of ontologies (for example, BioPortal, SKOS), data dictionary, regular expressions and flags to determine the type of profiling
+	\item  Develop a fully customizable dashboard with:
+	 \subitem{a)} provenance adhering to IT standards
+	   \subitem{b)} governance at entity level 
+
 \end{itemize}

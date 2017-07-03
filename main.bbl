@@ -1,9 +1,25 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{chen2014big}
 Min Chen, Shiwen Mao, and Yunhao Liu.
 \newblock Big data: A survey.
 \newblock {\em Mobile Networks and Applications}, 19(2):171--209, 2014.
+
+\bibitem{10002010map}
+1000 Genomes~Project Consortium et~al.
+\newblock A map of human genome variation from population-scale sequencing.
+\newblock {\em Nature}, 467(7319):1061--1073, 2010.
+
+\bibitem{10002012integrated}
+1000 Genomes~Project Consortium et~al.
+\newblock An integrated map of genetic variation from 1,092 human genomes.
+\newblock {\em Nature}, 491(7422):56--65, 2012.
+
+\bibitem{ecker2012genomics}
+Joseph~R Ecker, Wendy~A Bickmore, In{\^e}s Barroso, Jonathan~K Pritchard, Yoav
+  Gilad, and Eran Segal.
+\newblock Genomics: Encode explained.
+\newblock {\em Nature}, 489(7414):52--55, 2012.
 
 \bibitem{5}
 Douglas Hanahan and Robert~A. Weinberg.
@@ -19,6 +35,25 @@ Ju-Seog Lee.
 Christoph Lengauer, Kenneth~W Kinzler, and Bert Vogelstein.
 \newblock Genetic instabilities in human cancers.
 \newblock {\em Nature}, 396(6712):643--649, 1998.
+
+\bibitem{miles2005skos}
+Alistair Miles, Brian Matthews, Michael Wilson, and Dan Brickley.
+\newblock Skos core: simple knowledge organisation for the web.
+\newblock In {\em International Conference on Dublin Core and Metadata
+  Applications}, pages 3--10, 2005.
+
+\bibitem{noy2009bioportal}
+Natalya~F Noy, Nigam~H Shah, Patricia~L Whetzel, Benjamin Dai, Michael Dorf,
+  Nicholas Griffith, Clement Jonquet, Daniel~L Rubin, Margaret-Anne Storey,
+  Christopher~G Chute, et~al.
+\newblock Bioportal: ontologies and integrated data resources at the click of a
+  mouse.
+\newblock {\em Nucleic acids research}, 37(suppl\_2):W170--W173, 2009.
+
+\bibitem{shay2013immunological}
+Tal Shay and Joonsoo Kang.
+\newblock Immunological genome project and systems immunology.
+\newblock {\em Trends in immunology}, 34(12):602--609, 2013.
 
 \bibitem{stratton2009cancer}
 Michael~R Stratton, Peter~J Campbell, and P~Andrew Futreal.
