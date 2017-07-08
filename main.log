@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.10.20)  4 JUL 2017 00:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.10.20)  8 JUL 2017 18:20
 entering extended mode
 **./main.tex
 (main.tex
@@ -87,18 +87,18 @@ Package: listings 2015/06/04 1.6 (Carsten Heinz)
 (evaluation.aux) (timeplan.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
 
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -168,22 +168,22 @@ Missing character: There is no ä in font cmr17!
 File: rwthlogo.pdf Graphic file (type pdf)
 
 <use rwthlogo.pdf>
-Package pdftex.def Info: rwthlogo.pdf used on input line 113.
+Package pdftex.def Info: rwthlogo.pdf used on input line 114.
 (pdftex.def)             Requested size: 199.1688pt x 56.90535pt.
  <i5-logo.png, id=2, 75.1608pt x 74.1972pt>
 File: i5-logo.png Graphic file (type png)
 
 <use i5-logo.png>
-Package pdftex.def Info: i5-logo.png used on input line 116.
+Package pdftex.def Info: i5-logo.png used on input line 117.
 (pdftex.def)             Requested size: 75.1606pt x 74.197pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 127.
+(Font)              <12> on input line 128.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 127.
+(Font)              <8> on input line 128.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 127.
+(Font)              <6> on input line 128.
 
-Overfull \hbox (27.83589pt too wide) in paragraph at lines 127--133
+Overfull \hbox (27.83589pt too wide) in paragraph at lines 128--134
  [][] 
  []
 
@@ -202,12 +202,6 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 \openout3 = `main.toc'.
 
  [5
-
-]
-Overfull \vbox (7.48248pt too high) has occurred while \output is active []
-
-
-[6
 
 ]
 \openout2 = `introduction.aux'.
@@ -241,57 +235,81 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--17
  []
 
 
-Overfull \hbox (7.91397pt too wide) in paragraph at lines 9--17
-\OT1/cmr/m/n/10.95 lu-tions in a much more rig-or-ous way i.e. through se-man-t
-i-cal en-rich-ment us-ing ontologies[1.1[]].
+Underfull \hbox (badness 10000) in paragraph at lines 9--17
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--17
+
  []
 
 [1
 
 
 
+
 ]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 18.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 20.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 18.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 20.
 
-<./images/datalake.JPG, id=33, 573.14125pt x 504.88625pt>
+<./images/datalake.JPG, id=29, 573.14125pt x 504.88625pt>
 File: ./images/datalake.JPG Graphic file (type jpg)
 
 <use ./images/datalake.JPG>
-Package pdftex.def Info: ./images/datalake.JPG used on input line 29.
-(pdftex.def)             Requested size: 343.8874pt x 302.93407pt.
+Package pdftex.def Info: ./images/datalake.JPG used on input line 31.
+(pdftex.def)             Requested size: 171.9437pt x 151.46703pt.
 
 Overfull \vbox (7.48248pt too high) has occurred while \output is active []
 
 
 [2 <./images/datalake.JPG>])
-Overfull \vbox (7.60416pt too high) has occurred while \output is active []
+Overfull \vbox (7.48248pt too high) has occurred while \output is active []
 
 
 [3]
 \openout2 = `relatedwork.aux'.
 
  (relatedwork.tex
-Overfull \vbox (7.48248pt too high) has occurred while \output is active []
-
-
-[4
+Chapter 2.
+) [4
 
 
 
 
 ]
-Chapter 2.
-) [5]
 \openout2 = `ownwork.aux'.
 
  (ownwork.tex
-Overfull \vbox (7.60416pt too high) has occurred while \output is active []
+Chapter 3.
 
+Underfull \hbox (badness 10000) in paragraph at lines 20--23
+
+ []
+
+) [5
+
+
+
+
+]
+\openout2 = `evaluation.aux'.
+
+ (evaluation.tex
+Chapter 4.
+)
+Underfull \hbox (badness 10000) in paragraph at lines 9--182
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--182
+
+ []
 
 [6
 
@@ -299,68 +317,35 @@ Overfull \vbox (7.60416pt too high) has occurred while \output is active []
 
 
 ]
-Chapter 3.
-
-Overfull \hbox (8.37144pt too wide) in paragraph at lines 18--18
-[]\OT1/cmr/bx/n/14.4 Development of fully cus-tomiz-able dash-board with prove-
-
- []
-
-) [7]
-\openout2 = `evaluation.aux'.
-
- (evaluation.tex
-Overfull \vbox (7.48248pt too high) has occurred while \output is active []
-
-
-[8
-
-
-
-
-]
-Chapter 4.
-) [9]
 \openout2 = `timeplan.aux'.
 
  (timeplan.tex
-Overfull \vbox (7.48248pt too high) has occurred while \output is active []
-
-
-[10
-
-
-
-
-]
 Chapter 5.
-) [11]
+) [7
+
+
+
+
+] (main.bbl [8
+
+
+
+
+
+])
 Overfull \vbox (7.48248pt too high) has occurred while \output is active []
 
 
-[12
-
-
-
-] (main.bbl) [13
-
-
-]
-Overfull \vbox (7.48248pt too high) has occurred while \output is active []
-
-
-[14
-
-] (main.aux (indexAddOn.aux) (introduction.aux) (relatedwork.aux)
+[9] (main.aux (indexAddOn.aux) (introduction.aux) (relatedwork.aux)
 (ownwork.aux) (evaluation.aux) (timeplan.aux)) ) 
 Here is how much of TeX's memory you used:
  2902 strings out of 493334
- 41502 string characters out of 3139242
- 107878 words of memory out of 3000000
+ 41468 string characters out of 3139242
+ 107766 words of memory out of 3000000
  6365 multiletter control sequences out of 15000+200000
  11029 words of font info for 38 fonts, out of 3000000 for 9000
  1145 hyphenation exceptions out of 8191
- 40i,7n,32p,1894b,373s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 40i,7n,32p,1672b,373s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fo
 nts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
 1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
@@ -369,9 +354,9 @@ nts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
 .pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl10.pfb><C:
 /Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program
  Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on main.pdf (17 pages, 203679 bytes).
+Output written on main.pdf (11 pages, 204749 bytes).
 PDF statistics:
- 103 PDF objects out of 1000 (max. 8388607)
+ 84 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

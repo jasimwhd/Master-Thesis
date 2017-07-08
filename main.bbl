@@ -1,9 +1,14 @@
 \begin{thebibliography}{10}
 
-\bibitem{chen2014big}
-Min Chen, Shiwen Mao, and Yunhao Liu.
-\newblock Big data: A survey.
-\newblock {\em Mobile Networks and Applications}, 19(2):171--209, 2014.
+\bibitem{bernstein2011generic}
+Philip~A Bernstein, Jayant Madhavan, and Erhard Rahm.
+\newblock Generic schema matching, ten years later.
+\newblock {\em Proceedings of the VLDB Endowment}, 4(11):695--701, 2011.
+
+\bibitem{https://doi.org/10.7908/c11g0km9}
+{Broad Institute TCGA Genome Data Analysis Center}.
+\newblock Analysis-ready standardized tcga data from broad gdac firehose
+  2016\_01\_28 run, 2016.
 
 \bibitem{10002010map}
 1000 Genomes~Project Consortium et~al.
@@ -20,6 +25,14 @@ Joseph~R Ecker, Wendy~A Bickmore, In{\^e}s Barroso, Jonathan~K Pritchard, Yoav
   Gilad, and Eran Segal.
 \newblock Genomics: Encode explained.
 \newblock {\em Nature}, 489(7414):52--55, 2012.
+
+\bibitem{fang2015managing}
+Huang Fang.
+\newblock Managing data lakes in big data era: What's a data lake and why has
+  it became popular in data management ecosystem.
+\newblock In {\em Cyber Technology in Automation, Control, and Intelligent
+  Systems (CYBER), 2015 IEEE International Conference on}, pages 820--824.
+  IEEE, 2015.
 
 \bibitem{5}
 Douglas Hanahan and Robert~A. Weinberg.
@@ -50,6 +63,13 @@ Natalya~F Noy, Nigam~H Shah, Patricia~L Whetzel, Benjamin Dai, Michael Dorf,
   mouse.
 \newblock {\em Nucleic acids research}, 37(suppl\_2):W170--W173, 2009.
 
+\bibitem{romero2009ontology}
+Marcos~Mart{\'\i}nez Romero, Jos{\'e} Manuel~V{\'a}zquez Naya, Javier~Pereira
+  Loureiro, and Norberto Ezquerra.
+\newblock Ontology alignment techniques.
+\newblock In {\em Encyclopedia of Artificial Intelligence}, pages 1290--1295.
+  IGI Global, 2009.
+
 \bibitem{shay2013immunological}
 Tal Shay and Joonsoo Kang.
 \newblock Immunological genome project and systems immunology.
@@ -59,5 +79,10 @@ Tal Shay and Joonsoo Kang.
 Michael~R Stratton, Peter~J Campbell, and P~Andrew Futreal.
 \newblock The cancer genome.
 \newblock {\em Nature}, 458(7239):719--724, 2009.
+
+\bibitem{terrizzano2015data}
+Ignacio~G Terrizzano, Peter~M Schwarz, Mary Roth, and John~E Colino.
+\newblock Data wrangling: The challenging yourney from the wild to the lake.
+\newblock In {\em CIDR}, 2015.
 
 \end{thebibliography}

@@ -7,16 +7,18 @@
 
 \chapter{Introduction}
 Cancer is one of the leading causes of death around the globe. It is considered to be the most complex disease that human species has to deal with. It is characterized by undesirable growth in cells which are caused by changes in genomes and exposure to environment\cite{5}. Each cancer type has unique architecture of genetic variation - somatic mutations, copy number alterations, gene expression profiles and different epigenetic aberration. Therefore, a strong need for better diagnosis, personalized medicines for patients have arose, which correlates with better understanding of changes at genetic level in tumors. All thanks to technological advancements in high-throughput techniques for genome-wide interrogations such as Microarray and Next-Generation Sequecing(NGS) platforms have provided wealth of multi-disciplinary, multi-institutional pilot projects in cancer studies\cite{stratton2009cancer} \cite{lengauer1998genetic}.\\~\\
-Various unique projects catering to cancer genome study such as 1000 Genome Project\cite{10002010map}\cite{10002012integrated}, Encyclopedia of DNA Elements Project (ENCODE)\cite{ecker2012genomics}, Immunological Genome Project (ImmGen)\cite{shay2013immunological}, The Cancer Genome Atlas (TCGA)\cite{lee2016exploring} which aims at investigating biological systems at several levels and creating humongous datasets with different data types. These projects motivates the bioinformaticians to develop novel data integration methodologies in order to explore hidden insights. With respect to current state-of-the-art for data integration platforms, data lake promises to addresses the onslaught of Big Data generated across the projects. However, one of the biggest challenges in data lake is to prevent turning into a data swamp or silos. Moreover, especially for cancer genomic data, where the users must have a first hand knowledge in biomedical area since its metadata alone cannot provide the full meaning of respective data. There are dearth of novel methodologies that can point out,for example - genes with name "TP53" and "BCC7" or "Breast Cancer" and "Breast Tumor" means the same. Additionally, in context of conceptual hierarchy, the patient's clinical data set has a broader term as a Person or narrower terms such as Outgoing, Incoming or Doner.  Thus, the use of knowledge organization system from both biomedical domain as well as generic is needed in order to understand the data much more unambiguously.  This would assist the users to find, explore, understand, and trust the data better. Such domain knowledge and thesauri are captured as specification of conceptualization(or commonly known as ontologies) in BioPortal\cite{noy2009bioportal}, Simple Knowledge Organization Systems(SKOS)\cite{miles2005skos}. \\~\\
-The current data lake efforts that are on data quality have the following features - profiling, cleaning and data enrichment. Keeping in consideration of our work in relation to semantic recognition of descriptive data schema, we focus on profiling aspect. But, existing profiling capabilities revolves around statistical data profiling and do not offer semantic aspect. This motivates us to an idea of enabling semantic profiling in data lakes. \\~\\
+Various unique projects catering to cancer genome study such as 1000 Genome Project\cite{10002010map}\cite{10002012integrated}, Encyclopedia of DNA Elements Project (ENCODE)\cite{ecker2012genomics}, Immunological Genome Project (ImmGen)\cite{shay2013immunological}, The Cancer Genome Atlas (TCGA)\cite{lee2016exploring} which aims at investigating biological systems at several levels through the creation of humongous datasets with different data types. These projects motivates the bioinformaticians such as development of novel data integration methodologies to explore hidden insights.\\~\\ 
+With respect to current state-of-the-art for data integration platforms, data lake promises to addresses the onslaught of Big Data generated across the projects\cite{fang2015managing}. However, one of the biggest challenges in data lake is to prevent turning into a data swamp or silos. Which means, the lake turns into a set of disconnected data pools because of lack of semblance of information governance. Presently, 70\%  of the time spent in data analytics projects is into informational discovery of the data - identification, location, integration and re-engineering\cite{terrizzano2015data}. Moreover, especially for cancer genomic data, where the users must have a first hand knowledge in biomedical area since its metadata alone cannot provide the full meaning out of respective datasets. There are dearth of novel methodologies that can point out, for example - genes with name "TP53" and "BCC7" or disease with name "Breast Cancer" and "Breast Tumor" means the same. Additionally, in context of conceptual hierarchy, the patient's clinical data set has a broader term as a Person or narrower terms such as Outgoing, Incoming or Doner.  Thus, the use of knowledge organization system from both biomedical domain as well as generic is needed to understand the data more unambiguously.  This would assist the users to find, explore, understand, and trust the data at ease. Such domain knowledge and thesauri are captured as specification of conceptualization(or commonly known as ontologies) in BioPortal\cite{noy2009bioportal} and Simple Knowledge Organization Systems(SKOS)\cite{miles2005skos} etc. \\~\\
+Keeping in consideration of our focus of work in relation to semantic discovery and management of metadata around the informational content, we focus on profiling aspect. But, existing profiling capabilities revolves around catching statistical summaries of anomalies and does not offer semantic aspect. This motivates us to an idea of enabling semantic profiling in data lakes. \\~\\
 Semantic Profiling is a methodology that exploits semantic-based tools and ontologies in order to derive lucid understanding of the information being stored in current systems. This approach is much more rigorous than former traditional profiling techniques for the following reasons: \\
 i) Unlike traditional profiling which captures as much anomalies as you can until you stop, whereas, in semantic profiling once you select the domain of study, you stick by the rules and guidelines. \\
 ii) If a user perform semantic profiling on one system and would like to combine the results of first system  with those from other system, it can easily be facilitated through its feature of reusability. \\
 iii) Semantic profiling allows setting up of testing hypothesis to monitor the data lake in production scenario which can detect semantic drift.\\~\\
-Therefore, through this thesis work, we extend current profiling efforts in the data lake solutions in a much more rigorous way i.e. through semantical enrichment using ontologies[\ref{fig:Figure1}]. This would open the door in answering questions about data sources like: 
+
+Therefore, through this thesis work, we extend current profiling efforts in the data lake solutions in a much more rigorous way i.e. through semantical enrichment using ontologies in Figure \ref{fig:Figure1}. This would open the door in answering questions about data sources like: 
 \begin{itemize}
-	\item Does the data adhere to particular standards such as gene and disease ontologies?
-	\item  Is there a way to capture controlled vocabularies, taxonomies and thesauri for clinical dataset of patients?
+	\item Does the biological data adhere to particular standards such as gene and disease ontologies?
+	\item  Is there a way to capture controlled vocabularies, taxonomies and thesauri for clinical information of patients?
 \end{itemize}
 \begin{figure}[htbp]
 	% center the image.
@@ -26,21 +28,17 @@ Therefore, through this thesis work, we extend current profiling efforts in the 
 	%	\resizebox{\textwidth}{!}{Figure1.png}}
 	% NOTE: if possible do not include bitmap graphics in your paper, if available use
 	% a vector graphics format
-	\includegraphics[scale=0.6]{./images/datalake.JPG}
+	\includegraphics[scale=0.3]{./images/datalake.JPG}
 	\caption{Need to extend the current semnantic tendencies of data lake}
 	\label{fig:Figure1}
-\end{figure}
-
+\end{figure} \newpage
 \section{Thesis Goals \& Outcome}
 \label{goals}
 Specific aims of my thesis are as follows:
 \begin{itemize}
-	\item Extend current profiling efforts in our state-of-art data lake, which only offers statistical analysis, to semantic indicators that provides the following features:
-	\subitem{a)} capture reports of all the bugs - different existing anomalies in the data source
-	\subitem{b)} set of update actions applied to the data source - translation to the same concept or format
-	\subitem{c)} semantic data structure with meta-information - in form  of ontologies (for example, BioPortal, SKOS), data dictionary, regular expressions and flags to determine the type of profiling
-	\item  Develop a fully customizable dashboard with:
-	 \subitem{a)} provenance adhering to IT standards
-	   \subitem{b)} governance at entity level 
-
+	\item Extend and develop current profiling efforts in our state-of-the-art data lake with:
+	\subitem{a)} a systematic process of annotating the ingested data's schema\cite{bernstein2011generic}
+	\subitem{b)} a systematic approach of extracting, managing and exploiting metadata of the datasets' information with  ontologies(for example, BioPortal, SKOS) through ontology alignment techniques\cite{romero2009ontology}
+ \item Analysis of the results
+ \subitem{a)} Develop a dashboard containing provenance to visually debug the quality of resulting data
 \end{itemize}

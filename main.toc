@@ -1,24 +1,21 @@
 \contentsline {chapter}{\numberline {1}Introduction}{1}
 \contentsline {section}{\numberline {1.1}Thesis Goals \& Outcome}{3}
-\contentsline {chapter}{\numberline {2}Background \& Related work}{5}
-\contentsline {section}{\numberline {2.1}What is Cancer Genome?}{5}
-\contentsline {section}{\numberline {2.2}State-of-art cancer genome repositories}{5}
-\contentsline {subsection}{\numberline {2.2.1}The Cancer Genome Atlas}{5}
-\contentsline {section}{\numberline {2.3}Data Lake}{5}
-\contentsline {subsection}{\numberline {2.3.1}Kylo: Data Lake solution }{5}
-\contentsline {section}{\numberline {2.4}Knowledge Organization Systems}{5}
-\contentsline {subsection}{\numberline {2.4.1}Simple Knowlege Organization Systems (SKOS)}{5}
-\contentsline {subsection}{\numberline {2.4.2}Bioportal}{5}
-\contentsline {chapter}{\numberline {3}Solution}{7}
-\contentsline {section}{\numberline {3.1}Development of semantic layer on top of Kylo, a data lake solution}{7}
-\contentsline {subsection}{\numberline {3.1.1}Capturing mapping of ingested metadata to ontologies}{7}
-\contentsline {subsection}{\numberline {3.1.2}Performing annotation, harmonization and canonicalization}{7}
-\contentsline {section}{\numberline {3.2}Development of fully customizable dashboard with provenance and governance at entity level}{7}
-\contentsline {chapter}{\numberline {4}Evaluation}{9}
-\contentsline {section}{\numberline {4.1}Distinguishing Breast Cancer Tumor Subclasses of Gene Expression Patterns with Clinical Implications}{9}
-\contentsline {subsection}{\numberline {4.1.1}Background}{9}
-\contentsline {subsection}{\numberline {4.1.2}Dataset in Detail}{9}
-\contentsline {subsection}{\numberline {4.1.3}Identification of Tumor Subtypes by Hierarchical Clustering}{9}
-\contentsline {subsection}{\numberline {4.1.4}Correlation to Clinical Results}{9}
-\contentsline {section}{\numberline {4.2}Results \& Discussion}{9}
-\contentsline {chapter}{\numberline {5}Time Plan}{11}
+\contentsline {chapter}{\numberline {2}Background \& Literature Survey}{4}
+\contentsline {section}{\numberline {2.1}What is Cancer Genome?}{4}
+\contentsline {section}{\numberline {2.2}State-of-the-art cancer genome repositories}{4}
+\contentsline {subsection}{\numberline {2.2.1}The Cancer Genome Atlas(TCGA)}{4}
+\contentsline {section}{\numberline {2.3}Knowledge Organization Systems}{4}
+\contentsline {subsection}{\numberline {2.3.1}Simple Knowlege Organization Systems (SKOS)}{4}
+\contentsline {subsection}{\numberline {2.3.2}Bioportal}{4}
+\contentsline {section}{\numberline {2.4}Related Work}{4}
+\contentsline {subsection}{\numberline {2.4.1}The DQM Tool by Talend}{4}
+\contentsline {subsection}{\numberline {2.4.2}Data Lake Content Management}{4}
+\contentsline {subsection}{\numberline {2.4.3}Kylo: Data Lake solution}{4}
+\contentsline {chapter}{\numberline {3}Solution}{5}
+\contentsline {section}{\numberline {3.1}Extend and develop current profiling efforts in Kylo, a data lake solution}{5}
+\contentsline {subsection}{\numberline {3.1.1}Systematic process of annotating the ingested data's schema\cite {bernstein2011generic}}{5}
+\contentsline {subsection}{\numberline {3.1.2}Systematic approach of extracting, managing and exploiting metadata of the datasets' information with ontologies }{5}
+\contentsline {section}{\numberline {3.2}Analysis of the results}{5}
+\contentsline {subsection}{\numberline {3.2.1}Develop a dashboard containing provenance to visually to visually debug the quality of resulting data}{5}
+\contentsline {chapter}{\numberline {4}Evaluation}{6}
+\contentsline {chapter}{\numberline {5}Time Plan}{7}
